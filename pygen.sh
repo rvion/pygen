@@ -52,9 +52,9 @@ fi
 
 echo go to project folder..
 source $dev/virtualenvs/${pjname}-python3/bin/activate
+echo \# ${pjname} > $dev/${pjname}/readme.md
 cd $dev/${pjname}
 git init
-
 
 
 echo done
