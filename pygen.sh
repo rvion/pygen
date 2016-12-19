@@ -1,6 +1,6 @@
 #!/usr/local/bin/zsh
 
-
+if [ -z "$dev" ]; then echo "dev is unset"; exit; else echo "root is '$dev'"; fi
 if [[ $# -eq 0 ]] ; then
     echo 'usage: pygen projectname'
     exit 0
