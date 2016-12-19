@@ -1,5 +1,7 @@
 ## pygen: quick script to scaffold python projects
 
+:warning: -> quick and dirty, nothing to reuse here
+
 ```
 ln -s $(pwd)/pygen.sh /usr/local/bin/pygen
 ```
