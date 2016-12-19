@@ -1,6 +1,13 @@
 #!/usr/local/bin/zsh
 
-echo ensure early termiation if error..
+
+if [[ $# -eq 0 ]] ; then
+    echo 'usage: pygen projectname'
+    exit 0
+fi
+
+
+# echo ensure early termiation if error..
 # set -eu
 
 
